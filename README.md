@@ -23,7 +23,7 @@
 |               32位          |               64位          |             解压到          |
 |-----------------------------|-----------------------------|-----------------------------|
 |[dnscrypt-proxy-win32-full-1.9.5.zip](https://download.dnscrypt.org/dnscrypt-proxy/dnscrypt-proxy-win32-full-1.9.5.zip)|[dnscrypt-proxy-win64-full-1.9.5.zip](https://download.dnscrypt.org/dnscrypt-proxy/dnscrypt-proxy-win64-full-1.9.5.zip)|`C:\localdns\dnscrypt-proxy\`|
-|[unbound-1.6.2-w32.zip](https://www.unbound.net/downloads/unbound-1.6.2-w32.zip)|[unbound-1.6.2.zip](https://www.unbound.net/downloads/unbound-1.6.2.zip)|`C:\localdns\unbound\`|
+|[unbound-1.6.3-w32.zip](https://www.unbound.net/downloads/unbound-1.6.3-w32.zip)|[unbound-1.6.3.zip](https://www.unbound.net/downloads/unbound-1.6.3.zip)|`C:\localdns\unbound\`|
 |[nircmd.zip](http://www.nirsoft.net/utils/nircmd.zip)|[nircmd-x64.zip](http://www.nirsoft.net/utils/nircmd-x64.zip)|`C:\localdns\`|
 |[wget-1.11.4-x86.zip](http://nebm.ist.utl.pt/~glopes/wget/wget-1.11.4-x86.zip)|[wget-1.11.4-x64.zip](http://nebm.ist.utl.pt/~glopes/wget/wget-1.11.4-x64.zip)|`C:\localdns\`|
 |[BIND9.11.1.x86.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1.x86.zip)|[BIND9.11.1.x64.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1.x64.zip)|`C:\localdns\bind9\`|
@@ -151,7 +151,7 @@ usage:  unbound [options]
 -w opt	windows option: 
    	install, remove - manage the services entry
    	service - used to start from services control panel
-Version 1.6.2
+Version 1.6.3
 linked libs: event winsock (it uses WSAWaitForMultipleEvents), OpenSSL 1.0.2j  26 Sep 2016
 linked modules: dns64 respip validator iterator
 BSD licensed, see LICENSE in source package for details.
@@ -167,7 +167,7 @@ file	if omitted C:\Program Files\Unbound\service.conf is used.
 -o option	print value of option to stdout.
 -f 		output full pathname with chroot applied, eg. with -o pidfile.
 -h		show this usage help.
-Version 1.6.2
+Version 1.6.3
 BSD licensed, see LICENSE in source package for details.
 Report bugs to unbound-bugs@nlnetlabs.nl
 ```
@@ -243,7 +243,7 @@ Commands:
   view_local_zone_remove view name  	remove local-zone in view
   view_local_data view RR...		add local-data in view
   view_local_data_remove view name  	remove local-data in view
-Version 1.6.2
+Version 1.6.3
 BSD licensed, see LICENSE in source package for details.
 Report bugs to unbound-bugs@nlnetlabs.nl
 ```
